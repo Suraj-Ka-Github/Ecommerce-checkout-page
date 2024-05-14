@@ -18,9 +18,11 @@ body {
     line-height: 1.5;
     min-height: 100vh;
 }
-.customised-heading5{
-    font-size:small;
+
+.customised-heading5 {
+    font-size: small;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,7 @@ body {
 .sub-header-bottom {
     color: silver;
 }
+
 .top-section,
 .bottom-section {
     display: flex;
@@ -93,7 +96,8 @@ body {
     left: 0rem;
     transition: top 200ms, font-size 200ms;
 }
-.underline{
+
+.underline {
     position: absolute;
     bottom: 0px;
     height: 2px;
@@ -102,29 +106,34 @@ body {
     border-bottom: 2px solid #172c50;
     transition: transform 0.3s ease;
 }
+
 .textbox:focus~.label,
 .textbox:not(:placeholder-shown).textbox:not(:focus)~.label {
     top: -1rem;
     font-size: 0.9rem;
 }
-.textbox:focus ~ .underline{
+
+.textbox:focus~.underline {
     transform: scaleX(1);
 }
-select:focus ~ .underline{
+
+select:focus~.underline {
     transform: scaleX(1);
 }
+
 .state-zip-container {
     display: flex;
     gap: 1rem;
 
 }
 
-.country-selector-container{
+.country-selector-container {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
 }
+
 .country-selector {
     width: 100%;
     font-size: 1.1rem;
@@ -133,6 +142,7 @@ select:focus ~ .underline{
     outline: none;
     background-color: white;
 }
+
 .address-bill-checkbox {
     appearance: none;
     height: 1rem;
@@ -180,7 +190,7 @@ select:focus ~ .underline{
 }
 
 .month-selector,
-.year-selector{
+.year-selector {
     position: relative;
 }
 
@@ -215,13 +225,15 @@ select:focus ~ .underline{
 }
 
 @media screen and (min-width : 768px) {
-    .header{
+    .header {
         margin: 1%;
     }
-    .sub-header{
+
+    .sub-header {
         margin: 4% 0% 5% 0%;
-        
+
     }
+
     .nav-button {
         opacity: 0;
     }
