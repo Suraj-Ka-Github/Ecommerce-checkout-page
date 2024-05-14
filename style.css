@@ -171,7 +171,7 @@ select:focus~.underline {
     ~.billing-address-container {
         display: flex;
         flex-direction: column;
-        margin: 3% 0%;
+        margin: 8% 0%;
         gap: 1.7rem;
     }
 }
