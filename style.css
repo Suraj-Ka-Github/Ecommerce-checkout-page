@@ -110,7 +110,8 @@ body {
 .textbox:focus~.label,
 .textbox:not(:placeholder-shown).textbox:not(:focus)~.label {
     top: -1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    color: #000;
 }
 
 .textbox:focus~.underline {
@@ -242,6 +243,7 @@ select:focus~.underline {
         max-width: 1000px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
         margin: auto;
         margin-bottom: 20%;
     }
